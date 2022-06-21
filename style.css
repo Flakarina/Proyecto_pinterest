@@ -1,85 +1,64 @@
 body{
     margin: 0px;
-
-}
-
-input {
-    border: 2px solid rgb(5, 87, 57);
-    background-color:rgb(253, 253, 253);
-    position: fixed;
-    top: 0;
-    z-index: 1;
+    display: flex;
     width: 100%;
+
 }
+/* BARRA SUPERIOR */
 .nav {
     border: 2px solid rgb(5, 87, 57);
     background-color:rgb(253, 253, 253);
     position: fixed;
+    display: flex;
     top: 0;
     z-index: 1;
     width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
 }
-
 .logo {
-height: 50px;
+    height: 40px;
+    }
+
+b{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
 
-
+.inicio{
+    border-radius: 50px;
+    margin: 5px 10px;
+    border: 2px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+}
+    
+input {
+    border: 2px solid rgb(182, 182, 182);
+    background-color: rgb(233, 233, 233);
+    color: rgb(107, 106, 106);
+    margin: 5px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
 
 .barra_nav {
-    border-radius: 10px;
+    border-radius: 50px;
     border-color: gray;
-    height: 25px;
-    width: 400px;
-    margin: 10px;
+    height: 35px;
+    width: 800px;
+    margin-top: 5px;
+    margin-left: 15px;
 }
 
-/* .container{
-    border: 3px solid #000;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "hijo2 hijo2"
-    "hijo1 hijo3"
-    "hijo1 hijo3";
-    grid-gap: 20px;
-    /* justify items: alinea horizontalmente */
-    /* justify-items: end; */
-    /* justify-items: start; */
-    /* justify-items: center; */
-    
-    /* align items: alinea verticalmente */
-    /* align-items: end; */
-    /* align-items: start; */
-    /* align-items: center; */
-/* }
-
-.hijo{
-    background-color: aqua;
-    border: 1px solid red;
-    border-radius: 20px;
+img{
+    height: 30px;
+    border-radius: 50px;
 }
-
-.hijo-1{
-    background-color: beige;
-    grid-area: hijo1;
-      /* justify self: alinea horizontalmente */
-    /* justify-self: end; */
-    /* justify-self: start; */
-    /* justify-self: center; */
-
-    /* align self: alinea verticalmente */
-    /* align-self: end; */
-    /* align-self: start;
-    align-self: center;
-} */
-/* 
-.hijo-2{
-    grid-area: hijo2;
+.lilly{
+    height: 40px;
+    border-radius: 50px;
 }
-
-.hijo-3{
-    grid-area: hijo3;
-} */
